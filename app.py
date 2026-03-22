@@ -6,7 +6,7 @@ from flask import Flask, request
 # --- الإعدادات ---
 TOKEN = '8772661692:AAFZP4n3IRvQmzFlc4_ISM66jvk2oYGFG7c'
 GEMINI_KEY = 'AIzaSyCKPWMPDFOaUMIstOABvQPw2GvsTZyI93o'
-URL = 'https://mohamad-chikhoni-ai-bot.onrender.com' # سنغير هذا لاحقاً برابط الاستضافة
+URL = 'https://mohamad-chikhoni-ai-bot.onrender.com' 
 
 bot = telebot.TeleBot(TOKEN)
 genai.configure(api_key=GEMINI_KEY)
