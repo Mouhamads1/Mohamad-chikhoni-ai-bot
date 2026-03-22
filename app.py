@@ -28,7 +28,7 @@ def getMessage():
 @app.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url=URL + TOKEN)
+    bot.set_webhook(url=URL + '/' + TOKEN)
     return "البوت يعمل بنظام Webhook!", 200
 
 # --- منطق البوت الذكي ---
